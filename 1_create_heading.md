@@ -12,7 +12,7 @@
     * what is model?
     * what is controller?
     * what is a view? <br/>
-&ensp;**I.5.** how to interact model,controller and views in rails app
+&nbsp;**I.5.** how to interact model,controller and views in rails app
   * saving rails projects data into database
     * what is database?
     * what are the types of databases?

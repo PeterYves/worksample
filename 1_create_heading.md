@@ -1,7 +1,7 @@
 
 # DIVE INTO CODE Work Sample for Education Mentor
 ## course content
-*### Introduction to Rails Course
+* ### Introduction to Rails Course
   * what is rails?
   * why rails? 
   * requirements to study rails and run rails projects

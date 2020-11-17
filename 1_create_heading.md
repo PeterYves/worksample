@@ -7,12 +7,12 @@
   * **I.1.** requirements to study rails and run rails projects
   * **I.1.** installation of rails and ruby environments
   * **I.1.** creatng first rails project
-  *  **I.1.**running your frst rails app/project
+  * **I.1.** running your frst rails app/project
   * **I.1.** rails project structure
     * what is model?
     * what is controller?
     * what is a view? <br/>
-  &ensp;how to interact model,controller and views in rails app
+&ensp;**I.5.** how to interact model,controller and views in rails app
   * saving rails projects data into database
     * what is database?
     * what are the types of databases?

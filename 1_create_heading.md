@@ -3,16 +3,16 @@
 ## course content
 ### I. Introduction to Rails Course
   * **I.1.** what is rails?
-  * I.2.why rails? 
-  * requirements to study rails and run rails projects
-  * installation of rails and ruby environments
-  * creatng first rails project
-  * running your frst rails app/project
-  * rails project structure
+  * **I.1.** why rails? 
+  * **I.1.** requirements to study rails and run rails projects
+  * **I.1.** installation of rails and ruby environments
+  * **I.1.** creatng first rails project
+  *  **I.1.**running your frst rails app/project
+  * **I.1.** rails project structure
     * what is model?
     * what is controller?
     * what is a view?
-  * how to interact model,controller and views in rails app
+  &ensp; how to interact model,controller and views in rails app
   * saving rails projects data into database
     * what is database?
     * what are the types of databases?

@@ -28,9 +28,10 @@ Before you install Rails, you should check to make sure that you have these inst
 * Yarn
 
 how to check if they are installed:
-> 1. Ruby:
+> 1. Ruby Version:
 >
->> $ ruby -v
+>> $ ruby -v  
+ruby 2.5.0
 >
 >> if it is not installed follow this link to install it [See Ruby Installation Guide!](https://www.ruby-lang.org/en/documentation/installation/).
 

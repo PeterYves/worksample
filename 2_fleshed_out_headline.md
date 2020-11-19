@@ -33,5 +33,6 @@ how to check if they are installed:
 >> $ ruby -v  
 ruby 2.5.0
 >
+>> Rails requires Ruby version 2.5.0 or later. If the version returned is less than 2.5, you'll need to install a fresh copy of Ruby.  
 >> if it is not installed follow this link to install it [See Ruby Installation Guide!](https://www.ruby-lang.org/en/documentation/installation/).
 

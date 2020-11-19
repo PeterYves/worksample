@@ -20,5 +20,12 @@ Ruby on Rails is open source software, which is free to use and includes everyth
 * rails is easy and fast to learn.
 
 ### Requirements to study Rails and run Ruby on Rails projects
+Before you install Rails, you should check to make sure that you have these installed in your system:
 
+* Ruby
+* SQLite3/postgresql
+* Node.js
+* Yarn
 
+how to check if they are installed:
+1. Ruby >>> $ ruby -v

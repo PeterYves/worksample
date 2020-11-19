@@ -28,4 +28,8 @@ Before you install Rails, you should check to make sure that you have these inst
 * Yarn
 
 how to check if they are installed:
-1. Ruby >>> $ ruby -v
+> 1. Ruby:
+>
+>> $ ruby -v
+>> if it is not installed follow this link to install it [Visit GitHub!](https://www.github.com).
+

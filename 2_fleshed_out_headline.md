@@ -31,5 +31,6 @@ how to check if they are installed:
 > 1. Ruby:
 >
 >> $ ruby -v
->> if it is not installed follow this link to install it [Visit GitHub!](https://www.github.com).
+>
+>> if it is not installed follow this link to install it [See Ruby Installation Guide!](https://www.ruby-lang.org/en/documentation/installation/).
 

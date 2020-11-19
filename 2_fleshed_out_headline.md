@@ -28,11 +28,35 @@ Before you install Rails, you should check to make sure that you have these inst
 * Yarn
 
 how to check if they are installed:
-> 1. Ruby Version:
+**1. Ruby**
+> check Version:
 >
 >> $ ruby -v  
 ruby 2.5.0
 >
 >> Rails requires Ruby version 2.5.0 or later. If the version returned is less than 2.5, you'll need to install a fresh copy of Ruby.  
->> if it is not installed follow this link to install it [See Ruby Installation Guide!](https://www.ruby-lang.org/en/documentation/installation/).
+>> if it is not installed follow this link to install it [See Ruby Installation Guide!](https://www.ruby-lang.org/en/documentation/installation/).  
+
+**2. SQLite3/PostgreSQL**
+> For Sqlite3:  
+>> $ sqlite3 --version  
+>> To install it: [See SQLITE3 installation guide Guide!](https://www.linuxcloudvps.com/blog/how-to-install-sqlite-on-ubuntu-16-04/).  
+> For PostgreSQL:
+>> $ psql --version  
+>> To install it: [See PostgreSQL installation guide Guide!](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-18-04)
+
+**3. Node**
+> $ node --version
+>
+>> To install it: [See node js website!](https://nodejs.org/en/download/).
+
+**4. yarn**
+> $ yarn -v
+>
+>> To install it: [See yarn website!](https://classic.yarnpkg.com/en/docs/install).
+
+### Installation of Rails
+
+
+
 

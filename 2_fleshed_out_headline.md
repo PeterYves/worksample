@@ -93,13 +93,15 @@ you will see a page like this:
 ### rails project structure
 To dispaly a text in rails, you need to atleast create a controller and a view.
 
-A **controller**'s purpose is to receive specific requests for the application. Routing decides which controller receives which requests. Often, there is more than one route to each controller, and different routes can be served by different actions. Each action's purpose is to collect information to provide it to a view.
+A **Model** in rails is the ActiveRecord module, which is a rich ORM layer that allows you to deal with the database without having to write complex SQL.
 
-A **view**'s purpose is to display this information in a human readable format. An important distinction to make is that it is the controller, not the view, where information is collected.
+A **controller** is where you put down your business logic and manage the application’s flow, it’s also responsible for the data processing and exposing the data needed to the view after fetching them from the model.
+
+A **view** then fills the template with the data and compiles the page from ERB ( the templating language) to HTML.
 
 To create a new controller, simply write:   
-> $ rails generate controller blog index
-Rails will create several files and a route for you:
+> $ rails generate controller welcome index
+Rails will create several files and a route for you:  
 ```
 create  app/controllers/welcome_controller.rb
  route  get 'welcome/index'
@@ -115,6 +117,58 @@ invoke  assets
 invoke    scss
 create      app/assets/stylesheets/welcome.scss
 ```
+controller file is saved at app/controllers/welcome_controller.rb and the view, located at app/views/welcome/index.html.erb.  
+
+Open the app/views/welcome/index.html.erb file in your text editor. Delete all existing code and replace it with the following:  
+> <h1>Hello, Rails!</h1>  
+
+### Rails routes
+The Rails router recognizes URLs and dispatches them to a controller's actions. It can also generate paths and URLs, avoiding the need to hardcode strings in your views.
+
+for example if you want to set app homepage to app/views/welcome/index.html.erb,
+Open the file **config/routes.rb** in your editor and copy in the following codes:
+```
+Rails.application.routes.draw do
+  get 'welcome/index'
+ 
+  root 'welcome#index'
+end
+```
+**root 'welcome#index'** tells Rails to map requests to the root of the application to the welcome controller's index action and get **'welcome/index'** tells Rails to map requests to **http://localhost:3000/welcome/index** to the welcome controller's index action. 
+
+### generating models and controllers in terminal
+* **generting a controller:**  
+> rails generate controller controller_name  
+* **generting a model:**  
+> rails generate model ModelName ColumnOneName:ColumnOneType ColumnTwoName:ColumnTwoType. ...  
+> for example: **rails generate model user name:string dob:date**  
+
+### Migrations in rails
+Migrations are a convenient way to alter your database schema over time in a consistent and easy way. They use a Ruby DSL so that you don't have to write SQL by hand, allowing your schema and changes to be database independent. you can modify tables without write sql queries only by generating migration.  
+
+* **Creating a migration:**  
+> $ rails generate migration AddPasswordToUsers  
+This will create an appropriately named empty migration:
+
+```
+class AddPasswordToUsers < ActiveRecord::Migration[5.0]
+  def change
+  end
+end
+```
+
+## II. Rails Practice Examples and advanced curriculum
+
+
+
+
+
+
+
+
+
+
+
 
 
 

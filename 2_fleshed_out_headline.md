@@ -80,8 +80,25 @@ This will create a Rails application called Blog in a blog directory and to inst
 > $ bundle install
 
 ### Running your first Rails app/project
-Project folder structure:
-![Rails app structure!](images/folder_structure.png "Folder_Structure")
+Project folder structure:  
+![Rails app structure!](images/folder_structure.png "Folder_Structure")  
+
+go to terminal in the project folder and run: **rails db:create** and then **rails s** to start rails server.  
+after that go to browser and write in: **localhost:3000**  
+you will see a page like this:
+![Rails app structure in browser!](images/localhost.png "localhost")  
+
+> To stop the web server, hit **Ctrl+C** in the terminal window where it's running.
+
+### rails project structure
+To dispaly a text in rails, you need to atleast create a controller and a view.
+
+A **controller**'s purpose is to receive specific requests for the application. Routing decides which controller receives which requests. Often, there is more than one route to each controller, and different routes can be served by different actions. Each action's purpose is to collect information to provide it to a view.
+
+A **view**'s purpose is to display this information in a human readable format. An important distinction to make is that it is the controller, not the view, where information is collected.
+
+To create a new controller, simply write: > $ rails generate controller Welcome index
+
 
 
 

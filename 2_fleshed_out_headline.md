@@ -97,7 +97,25 @@ A **controller**'s purpose is to receive specific requests for the application. 
 
 A **view**'s purpose is to display this information in a human readable format. An important distinction to make is that it is the controller, not the view, where information is collected.
 
-To create a new controller, simply write: > $ rails generate controller Welcome index
+To create a new controller, simply write:   
+> $ rails generate controller blog index
+Rails will create several files and a route for you:
+```
+create  app/controllers/welcome_controller.rb
+ route  get 'welcome/index'
+invoke  erb
+create    app/views/welcome
+create    app/views/welcome/index.html.erb
+invoke  test_unit
+create    test/controllers/welcome_controller_test.rb
+invoke  helper
+create    app/helpers/welcome_helper.rb
+invoke    test_unit
+invoke  assets
+invoke    scss
+create      app/assets/stylesheets/welcome.scss
+```
+
 
 
 

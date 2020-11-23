@@ -1,6 +1,6 @@
 ## Work Sample 3 Online Question Answer
 
-**### here are some common questions many people do really ask when running rails:**  
+### here are some common questions many people do really ask when running rails:
 Questions and answers:  
 ```
 **Q1. What is DRY in Rails?**
@@ -24,7 +24,8 @@ Questions and answers:
 > For more information: [Click here](https://www.javatpoint.com/ruby-on-rails-active-record)  
 
 **Q5. What is the naming convention for variables in Rails?**  
-> The name of the variable is given in the lower case, and an underscore separates the different words within the name.
+> The name of the variable is given in the lower case, and an underscore separates the different words within the name.  
+```
 
 
 

@@ -63,10 +63,12 @@ To verify that rails is installed:
 > $ rails --version
 
 ### Creatng first Rails project
-To create your first rails app, open a terminal, navigate to a directory where you have rights to create files, and type:  
+To create your first rails app, open a terminal, navigate to a directory where you have rights to create files, and type:    
 > rails new project_name -d database(sqlite3/postgresql)  
+>
 for example, to create a blog app with sqlite3 database:   
 > rails new blog -d sqllite3 // but for sqlite3 database it is not necessary to specify it because it is default rails app db.    
+>
 you can write: 
 > $ rails new blog  
 >

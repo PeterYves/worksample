@@ -1,8 +1,8 @@
 ## Work Sample 3 Online Question Answer
 
-### here are some common questions many people do really ask when running rails:
+### here are some common questions many people do really ask when learning rails:
 Questions and answers:  
-```
+
 **Q1. What is DRY in Rails?**
 > DRY stands for Don't Repeat Yourself. It is a principle of software development which states that "Every piece of knowledge must have an authoritative, unambiguous, single representation within a system. If the same part of the code will not repeat again and again, the code will be more maintainable, extensible and less buggy.  
 
@@ -25,7 +25,7 @@ Questions and answers:
 
 **Q5. What is the naming convention for variables in Rails?**  
 > The name of the variable is given in the lower case, and an underscore separates the different words within the name.  
-```
+
 
 
 

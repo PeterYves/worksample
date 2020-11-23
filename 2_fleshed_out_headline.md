@@ -120,7 +120,7 @@ create      app/assets/stylesheets/welcome.scss
 controller file is saved at app/controllers/welcome_controller.rb and the view, located at app/views/welcome/index.html.erb.  
 
 Open the app/views/welcome/index.html.erb file in your text editor. Delete all existing code and replace it with the following:  
-> <h1>Hello, Rails!</h1>  
+> ```<h1>Hello, Rails!</h1>```
 
 ### Rails routes
 The Rails router recognizes URLs and dispatches them to a controller's actions. It can also generate paths and URLs, avoiding the need to hardcode strings in your views.

@@ -80,7 +80,7 @@ This will create a Rails application called Blog in a blog directory and to inst
 > $ bundle install
 
 ### Running your first Rails app/project
-project folder structure:
+Project folder structure:
 ![Rails app structure!](images/folder_structure.png "Folder_Structure")
 
 

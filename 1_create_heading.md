@@ -8,7 +8,7 @@
   *  installation of rails and ruby environments
   *  creatng first rails project
   *  running your frst rails app/project
-  *  rails project structure
+  *  rails project structure  
     * what is model?
     * what is controller?
     * what is a view?

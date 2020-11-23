@@ -158,9 +158,69 @@ end
 ```
 
 ## II. Rails Practice Examples and advanced curriculum
-* creating a sipmle rails app:  
+* **creating a sipmle rails app**:  
 > ```rails new blog -d postgresql```  
-After app being created navigate to the app folder using ```cd/blog```  and write command ```rails db:create``` to create a database which will be named by default **blog_development**.
+After app being created navigate to the app folder using ```**cd/blog**```  and write command ```**rails db:create**``` to create a database which will be named by default **blog_development**.  
+
+* **Adding CRUD functions in a project:**
+**CRUD** CRUD stands for Create, Read, Update and Delete data in a database. Active Record automatically allows an application to read and manipulate data stored within tables.   
+
+* **what is scaffold in rails ?**  
+A scaffold is a set of automatically generated files which forms the basic structure of a Rails project.  
+
+These files include: a controller, a model, Views for every standard controller action (index, edit, show, new),a new route, and a migration to prepare your database.  
+
+* **how to generate scaffold in rails:**  
+> ```rails g scaffold table_name column1 column2 column3...```  
+>> lets create a blog scaffold: ```rails g scaffold blogs title:string content:text```  
+
+* **create a blog app with CRUD using scaffold:**  
+> ```$ rails new blog_app -d postgresql```  
+
+> ```$ cd blog```  
+
+> ```$ bundle install```  
+> ```$ rails db:create```
+> ```$ rails g scaffold blogs title:string content:text```  
+
+This example creates the following files:  
+* A BlogsController  
+* A Blog model  
+* A new resources :blogs route added to your config/routes.rb file  
+* A set of testing-related files  
+* View files under app/views/blogs (five in total)  
+
+If you want to undo this scaffold, you can use the following command: 
+> ```$ rails d scaffold blogs```  
+
+After creating scaffold run these commands:
+> ```$ rails db:migrate```  
+
+If no error messages show up, you’re ready! You have a basic structure for your new Rails blog application.  
+
+Next Run: ```rails s``` to start the rails server.  
+
+Go to your favorite browser and type: ```http://localhost:3000/blogs```, you will see the following screen:  
+
+![Rails Blog app!](images/blog.png "Blog")  
+
+the create new blog screen is like this:  
+
+![Rails Blog app!](images/newblog.png "NewBlog")  
+
+Blog Show Page:  
+![Rails Blog app!](images/blogshow.png "BlogShow")  
+
+All Blogs Page after creating some blogs: 
+![Rails Blog app!](images/allblogs.png "AllBlog")  
+
+
+
+
+
+
+
+
 
 
 

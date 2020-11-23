@@ -67,14 +67,21 @@ To create your first rails app, open a terminal, navigate to a directory where y
 > rails new project_name -d database(sqlite3/postgresql)  
 >
 for example, to create a blog app with sqlite3 database:   
-> rails new blog -d sqllite3 // but for sqlite3 database it is not necessary to specify it because it is default rails app db.    
+> rails new blog -d sqlite3  // but for sqlite3 database it is not necessary to specify it because it is default rails app db.    
 >
 you can write: 
 > $ rails new blog  
 >
 to create a blog app with postgresql database write in terminal:  
-> rails new blog -d postgresql
+> rails new blog -d postgresql  
 
+This will create a Rails application called Blog in a blog directory and to install the gem dependencies that are already mentioned in Gemfile first navigate to blog folder by writing this command:
+> $ cd blog
+> $ bundle install
+
+### Running your first Rails app/project
+project folder structure:
+![Rails app structure!](images/folder structure.png "structure")
 
 
 

@@ -211,8 +211,16 @@ the create new blog screen is like this:
 Blog Show Page:  
 ![Rails Blog app!](images/blogshow.png "BlogShow")  
 
-All Blogs Page after creating some blogs: 
+All Blogs Page after creating some blogs:   
 ![Rails Blog app!](images/allblogs.png "AllBlog")  
+
+## III. Summary and References
+Now you have the required basics as a ruby on rails developer but you ca find other documentations for further knowledge.  
+
+* **References**  
+for further documentation [See Rails tutorial!](https://www.javatpoint.com/ruby-on-rails-tutorial). or  
+[See this Rails tutorial!](https://guides.rubyonrails.org/getting_started.html)
+
 
 
 

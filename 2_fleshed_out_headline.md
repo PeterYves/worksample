@@ -81,7 +81,7 @@ This will create a Rails application called Blog in a blog directory and to inst
 
 ### Running your first Rails app/project
 project folder structure:
-![Rails app structure!](images/folder structure.png "structure")
+![Rails app structure!](images/folder_structure.png "Folder_Structure")
 
 
 

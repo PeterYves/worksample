@@ -158,6 +158,9 @@ end
 ```
 
 ## II. Rails Practice Examples and advanced curriculum
+* creating a sipmle rails app:  
+> ```rails new blog -d postgresql```  
+After app being created navigate to the app folder using ```cd/blog```  and write command ```rails db:create``` to create a database which will be named by default **blog_development**.
 
 
 
